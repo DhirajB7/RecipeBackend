@@ -11,7 +11,7 @@ public class Check {
 	
 	@GetMapping()
 	public MessageToJson checkStatus() {
-		return new MessageToJson("Working");
+		return new MessageToJson("Running");
 	}
 
 }
